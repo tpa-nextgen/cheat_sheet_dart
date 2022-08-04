@@ -2,27 +2,6 @@
 
 ### if/else
 
-Every day, you make assessments and comparisons and based on your findings, you make decisions. Is it cold outside? Yes, I may need to dress warmly. But is it really cold? If so, I may have to dig out my winter coat instead of relying on this flimsy jacket.
-
-Programs need to make decisions, too. Is there a valid user signed in? If so, let the user interact with the UI. Does the file we need to load exist? If so, load it, but if not, create it.
-
-Making decisions is an essential part of all but the simplest of computer programs. You could model some of your internal dialogue about what to wear outside with code like this:
-
-```dart
-void main() {
-  num cold = 60;
-  num temperature = 57;
-
-  print("Is it cold outside?");
-  
-  if (temperature < cold) {
-    print("Yes, a bit.");
-  }
-}
-```
-
-Dart supports the if/else statement in the same way as other popular languages. We can have if only blocks or if/else statement as well as if/else if/else ladder statements. Having one if/else blocks inside another is legal.
-
 Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
@@ -61,7 +40,7 @@ void main() {
 ### Ternary operator
 Dart also supports our beloved ternary operator to execute if/else statements on a single line with fewer words. The syntax is the same as in JavaScript.
 
-Run ./02_ternary_operator.dart in [DartPad](https://dartpad.dev/?)
+Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -106,13 +85,7 @@ void main() {
   print( "x + y = ${ safe_x + safe_y }" );
 }
 ```
-
-In the above example, we have created safe_x and safe_x to store non-null integer values to make the arithmetic operation successful. If an arithmetic operation is performed on a null value, the Dart program crashes.
-?? operator is used to select a non-null value. In the syntax LHS ?? RHS, if the left-hand side expression or a variable is null, then the right-hand side value or result of an expression is returned.
-
 ### Switch
-
-In a case when based on one variable we need to handle many cases we can instead of chaining if/else statements can use `switch`.
 
 Run example in [DartPad](https://dartpad.dev/?)
 
@@ -127,9 +100,9 @@ void main() {
   switch (name) {
     case 'Adam':
       greeting = 'Hi, Adam!';
-      break;// Notice those breaks that are added at the end of the code to execute for a given case
+      break;// Breaks are added at the end of the code to be executed for a given case
     case 'Bob':
-      // Notice how each case can consist from multiline blocks of instructions
+      // Each case can consist from multiline blocks of instructions
       if(isDay) {
         greeting = 'Good morning, Bob!';
       } else {
@@ -139,14 +112,10 @@ void main() {
     case 'David':
       greeting = 'Good to see you, David!';
       break;
-    default:
+    default: // if no case match default will be executed
       greeting = 'Good Morning';
   }
   print(greeting);
 }
 
 ```
-
-> ### Additional Materials
-> * Dart Academy Boot Camp - Lesson 8, 9 and 10, 12 - <https://da-bootcamp.firebaseapp.com/?course=start_programming_dart>
-> * Dart samples - <https://dart.dev/samples#control-flow-statements>
