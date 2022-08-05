@@ -1,6 +1,5 @@
 # Function
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -35,7 +34,6 @@ int getSum(int a, int b) {
 # Positional and Names Parameters
 Dart function supports both positional and named parameters just like in Python. Also, we can provide default values to these parameters in case a function was not invoked with some arguments.
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**

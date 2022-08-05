@@ -1,6 +1,5 @@
 # List
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -24,7 +23,7 @@ void main() {
   dynamicFixedList[0] = 'HELLO'; // override value at index 0
   dynamicFixedList[1] = 'WORLD';
   print(dynamicFixedList);
-  // becouse it is dynamic you can ovveride value with any type
+  // because it is dynamic you can override value with any type
   dynamicFixedList[1] = 1; 
   print(dynamicFixedList);
 

@@ -2,7 +2,6 @@
 
 ### if/else
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -40,7 +39,6 @@ void main() {
 ### Ternary operator
 Dart also supports our beloved ternary operator to execute if/else statements on a single line with fewer words. The syntax is the same as in JavaScript.
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -69,7 +67,6 @@ void main() {
 ### Non-null selector operator
 `??` is the operator Dart provides to select a non-null value.
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -87,7 +84,6 @@ void main() {
 ```
 ### Switch
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 import 'dart:math';

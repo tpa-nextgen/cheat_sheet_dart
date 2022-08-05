@@ -1,6 +1,5 @@
 # Optionals - `is` operator
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**

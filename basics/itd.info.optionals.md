@@ -1,6 +1,5 @@
 ### Optionals
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**

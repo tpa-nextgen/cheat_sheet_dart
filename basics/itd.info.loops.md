@@ -1,6 +1,5 @@
 # Loops
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -43,7 +42,6 @@ void main() {
 
 Variables declared inside the `for` or `for-in` loop do not hoist outside. For example, `i` in the first loop and `fruit` in the second loop can not be accessed outside these loops.
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -74,7 +72,6 @@ void main() {
 
 ```
 
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
