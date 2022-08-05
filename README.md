@@ -21,3 +21,4 @@
 - [Abstraction](oop/itd.info.abstraction.md)
 - [Interfaces - implements](oop/itd.info.interfaces.md)
 - [Static](oop/itd.info.static.md)
+- [Generics](oop/itd.info.generics.md)
