@@ -1,8 +1,5 @@
 # Loops
 
-Dart supports for C++ style for loop with `for(initializationStatement; testExpression; updateStatement) { // codes }` syntax as well as Python style for-in loop to iterate over a List of items. For-in loop uses the `iterator` of a given collection. Note that you can't use for-in with `Map` because it doesn't implement `Iterable`. You can also use `iterator` directly.
-
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -40,13 +37,11 @@ void main() {
     print(iterator.current);
   }
 }
+
 ```
 
 Variables declared inside the `for` or `for-in` loop do not hoist outside. For example, `i` in the first loop and `fruit` in the second loop can not be accessed outside these loops.
 
-Dart also supports the `break` and `continue` keywords to break out of a for loop or to skip an iteration. If we have nested for loops, then `break` or `continue` will not affect the parent loops.
-
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -57,32 +52,26 @@ Run example in [DartPad](https://dartpad.dev/?)
  * `break` and `continue` will only affect the current loop.
  */
 void main() {
-  // [parent] for loop
   for (var i = 0; i < 10; i++) {
-    print(
-        "Parent iteration $i: "); // always prints for each iteration of `parent` loop
+    print("Parent iteration $i: ");
 
     // [child] for-in loop
     for (var side in ['LEFT', 'RIGHT']) {
       if (side == 'LEFT') {
-        continue; // skip iteration of `child` loop when `side` is `LEFT`
+        continue; // skip iteration when `side` is `LEFT`
       } else if (i >= 6) {
-        break; // break `child` loop when `i` is greater than or equal to 6
+        break; // stop loop when `i` is greater than or equal to 6
       } else {
         print("SIDE => $side | ");
       }
     }
 
-    print(""); // print new line
+    print("");
   }
 }
+
 ```
 
-From the above example, we can see that `continue` keyword only skipped the iteration of the inner `for-in` loop, as well as `break`, terminated the inner `for-in` loop while the outer for loop kept working.
-
-Dart supports also `while` and `do-while` loops. In the case of `while(condition){}` loop, statement inside `while` block is only executed when `condition` is true. However, in the case of `do{} while(condition)` loop, do block is executed first, and then the `condition` is checked in the `while` block.
-
-Run example in [DartPad](https://dartpad.dev/?)
 
 ```dart
 /**
@@ -94,29 +83,21 @@ Run example in [DartPad](https://dartpad.dev/?)
  * [do/while]
  * do{ statements; } while( condition );
  *
- * In the case of `while` loops, `condition` is first evaluated and then `statements` are executed.
- * But in the case of `do/while` loop, `statements` inside `do` block is first executed, and then `condition` is evaluated.
  */
 void main() {
-  // simple `while` loop
   var i = 0;
   while (i < 5) {
     print("$i ");
-    i++; // increment i to avoid infinite iteration
+    i++;
   }
 
-  print(""); // print newline
+  print("");
 
-  // simple `do/while` loop
   var j = 10;
-
   do {
     print('do-while: $j');
-  } while (j < 10);
+    j++;
+  } while (j < 15);
 }
+
 ```
-
-
-> ### Additional Materials
-> * Dart Academy Boot Camp - Lessons 14, 15, and 16 - <https://da-bootcamp.firebaseapp.com/?course=start_programming_dart>
-> * Dart flow control - loops - <https://www.youtube.com/watch?v=VNPPApTef-E>
