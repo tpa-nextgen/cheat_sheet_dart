@@ -4,7 +4,7 @@
 - [Variables and data types](basics/itd.info.variables_and_data_types.md)
 - [Checking type - is](basics/itd.info.checking_type.md)
 - [Optionals - nullable](basics/itd.info.optionals.md)
-- [String Interpolation](basics/itd.info.string_interpolation.md)
+- [String interpolation](basics/itd.info.string_interpolation.md)
 - [Conditional statements](basics/itd.info.conditional_statements.md)
 - [Function](basics/itd.info.function.md)
 - [Map](basics/itd.info.map.md)
@@ -12,6 +12,12 @@
 - [List](basics/itd.info.list.md)
   
 # Object Oriented Programming
-- 
-
-
+- [Class](oop/itd.info.class.md)
+- [Methods](oop/itd.info.methods.md)
+- [Constructor](oop/itd.info.constructor.md)
+- [Immutable properties - final](oop/itd.info.final.md)
+- [Initializer lists - calculating values of final fields](oop/itd.info.initializer_lists.md)
+- [Inheritance - extends](oop/itd.info.inheritance.md)
+- [Abstraction](oop/itd.info.abstraction.md)
+- [Interfaces - implements](oop/itd.info.interfaces.md)
+- [Static](oop/itd.info.static.md)
