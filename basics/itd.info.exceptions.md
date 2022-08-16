@@ -3,7 +3,7 @@
 ```dart
 import 'dart:convert';
 
-main() {
+void main() {
   try {
     final album = Album.fromJson(jsonDecode(
         '{,,,,"userId": 1,"id": 1,"title": "quidem molestiae enim"}'));
