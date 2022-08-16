@@ -10,6 +10,7 @@
 - [Map](basics/itd.info.map.md)
 - [Loops](basics/itd.info.loops.md)
 - [List](basics/itd.info.list.md)
+- [Exceptions](basics/itd.info.exceptions.md)
   
 # Object Oriented Programming
 - [Class](oop/itd.info.class.md)
