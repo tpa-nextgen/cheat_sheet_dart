@@ -43,8 +43,11 @@ class Message {
 ### Late fields initialization
 ```dart
 void main() {
-  late Message message = Message('Łukasz', 'Hi!', '3:53PM'); 
-  print(message.author);
+  late Message message = Message('Łukasz', 'Hi!', '3:53PM');
+  
+  // Will cause error because we cannot use this property before initialization
+  // print(message.author);
+  
   message.author = 'John';
   print(message.author);
 }
