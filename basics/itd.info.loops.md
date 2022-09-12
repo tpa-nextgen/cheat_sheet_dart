@@ -40,6 +40,8 @@ void main() {
 
 ```
 
+Open in [DartPad](https://dartpad.dev/?id=854835f93a42efb0344a6d7dbf4205d3).
+
 Variables declared inside the `for` or `for-in` loop do not hoist outside. For example, `i` in the first loop and `fruit` in the second loop can not be accessed outside these loops.
 
 
@@ -72,6 +74,8 @@ void main() {
 
 ```
 
+Open in [DartPad](https://dartpad.dev/?id=0aa296470a0245e7b01d3f54cd54f484).
+
 
 ```dart
 /**
@@ -101,3 +105,5 @@ void main() {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=d119e59a3a611f3bc7d3702e0ebfd55d).

@@ -18,3 +18,5 @@ class Account {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=4c69d1dfb2eee0fb77bcbfdea7279229).

@@ -30,3 +30,5 @@ class Box<PackageType> {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=862e771a581de8225ce21f83b9ab78aa).

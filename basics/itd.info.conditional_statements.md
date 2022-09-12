@@ -36,6 +36,8 @@ void main() {
 }
 ```
 
+Open in [DartPad](https://dartpad.dev/?id=49f31e7dfad7d156f15794b7e66165d7).
+
 ### Ternary operator
 Dart also supports our beloved ternary operator to execute if/else statements on a single line with fewer words. The syntax is the same as in JavaScript.
 
@@ -64,6 +66,8 @@ void main() {
 }
 ```
 
+Open in [DartPad](https://dartpad.dev/?id=0110b447a3e1f02ccadc9d3257c740f0).
+
 ### Non-null selector operator
 `??` is the operator Dart provides to select a non-null value.
 
@@ -82,6 +86,9 @@ void main() {
   print( "x + y = ${ safe_x + safe_y }" );
 }
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=4779978cf5ef84a47c03dd7168663d59).
+
 ### Switch
 
 
@@ -115,3 +122,6 @@ void main() {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=e89f7c8612e054e68f49b180509e62c0).
+

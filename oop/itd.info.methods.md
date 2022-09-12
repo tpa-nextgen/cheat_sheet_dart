@@ -46,3 +46,5 @@ class ToysShop {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=558bd0e40515c970aa53c0e122c6b12c).
