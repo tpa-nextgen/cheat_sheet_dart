@@ -64,7 +64,7 @@ class Message {
     late String message;
   
     Message(String author, String message, String timestamp) {
-      this.author = author.toUpperCase()
+      this.author = author.toUpperCase();
       this.message = message;
       this.timestamp = timestamp;
     }
