@@ -1,9 +1,5 @@
 ```dart
-import 'package:two_fer/two_fer.dart';
-
-void main(List<String> arguments) {
-  print(twoFer());
-}
+void main(List<String> arguments) {}
 
 /**
  * Here you can write 
