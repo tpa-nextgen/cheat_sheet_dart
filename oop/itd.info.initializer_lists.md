@@ -21,6 +21,12 @@ class Currency {
   }
 }
 
+void main() {
+  final dollar = Currency('dolar', 'USD', '\$', 1.3);
+  print('Buy price: ${dollar.buyPrice}');
+  print('Sell price: ${dollar.sellPrice}');
+}
+
 ```
 
 Open in [DartPad](https://dartpad.dev/?id=ff21de3a385c56f5d56edbf74e0fa1ef).
