@@ -1,5 +1,6 @@
 ```dart
-void main(List<String> arguments) {}
+void main(List<String> arguments) {
+}
 
 /**
  * Here you can write 
