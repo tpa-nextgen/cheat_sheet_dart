@@ -33,3 +33,5 @@ void main() {
   print('String is child of Object class: ${ dynamic is Object }');// true
 }
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=https://dartpad.dev/?id=58f6e091288248656bcc4d15191175d8).

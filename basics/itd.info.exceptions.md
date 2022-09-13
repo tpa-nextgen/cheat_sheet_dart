@@ -28,3 +28,5 @@ class Album {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=03031064f384ef868569d86d53897ccd).

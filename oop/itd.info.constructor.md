@@ -18,6 +18,9 @@ class Message {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=e8e442590be6acdb5f98b66c23d86827).
+
 ### Named parameters
 ```dart
 void main() {
@@ -40,6 +43,9 @@ class Message {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=4a3885a618bc612e651547b28552a897).
+
 ### Late fields initialization
 ```dart
 void main() {
@@ -65,6 +71,8 @@ class Message {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=a2a4c5f780cb7dd57e8b28959bb14630).
 
 ### Named constructors
 
@@ -99,3 +107,5 @@ class Message {
 
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=fa50c68469b969f444c4859110089403).

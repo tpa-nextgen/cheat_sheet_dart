@@ -49,3 +49,5 @@ void printType<T>(T object) {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=50c06412a2c85f36c7c5f4933256f6e4).

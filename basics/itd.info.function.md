@@ -31,6 +31,8 @@ int getSum(int a, int b) {
 }
 ```
 
+Open in [DartPad](https://dartpad.dev/?id=d7f00d892f7a8ae64fadef1c02cd0dc1).
+
 # Positional and Names Parameters
 Dart function supports both positional and named parameters just like in Python. Also, we can provide default values to these parameters in case a function was not invoked with some arguments.
 
@@ -89,3 +91,5 @@ void getSafeNamedInfo(String name, {int? age, bool isMarried = false}) {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=e59a730ec9fdae8c742be7b2b1545840).

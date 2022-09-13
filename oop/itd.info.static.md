@@ -13,3 +13,5 @@ class Disk {
   }
 }
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=febfe4b3b5900a1e19e4273bd79d00f7).

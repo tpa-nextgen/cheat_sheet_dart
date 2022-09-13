@@ -43,3 +43,5 @@ void main() {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=677ffe8cd80a448deb0f7847be419552).

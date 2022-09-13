@@ -22,3 +22,5 @@ class Currency {
 }
 
 ```
+
+Open in [DartPad](https://dartpad.dev/?id=ff21de3a385c56f5d56edbf74e0fa1ef).
